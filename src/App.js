@@ -58,9 +58,9 @@ function App() {
           {/* <button type="submit">Send</button> */}
           <button
             type="submit"
-            class="button">
-            <span class="button__text">Ask Juliet</span>
-            <span class="button__icon">
+            className="button">
+            <span className="button__text">Ask Juliet</span>
+            <span className="button__icon">
               <FaHeart />
             </span>
           </button>

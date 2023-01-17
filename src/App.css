@@ -22,7 +22,7 @@ body {
 }
 
 .TextArea {
-  width: 444px;
+  width: 500px;
   height: 111px;
   border: 1rem;
   border-color: azure;
@@ -52,7 +52,7 @@ body {
   font-size: 1em;
   padding: 1em;
   resize: none;
-  align-items: left;
+  align-items: center;
 }
 
 .button {
@@ -68,6 +68,8 @@ body {
 	font-size: 16px;
 	font-weight: 500;
 	cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {
