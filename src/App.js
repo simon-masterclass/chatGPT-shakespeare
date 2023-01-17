@@ -54,7 +54,15 @@ function App() {
             className="TextArea"
           />
           <br />
-          <button type="submit">Send</button>
+          {/* <button type="submit">Send</button> */}
+          <button
+            type="submit"
+            class="button">
+            <span class="button__text">Ask Juliet</span>
+            <span class="button__icon">
+              <ion-icon name="cloud-download-outline"></ion-icon>
+            </span>
+          </button>
         </form>
         <br />
         <div className="Juliet">
