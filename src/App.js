@@ -31,15 +31,15 @@ function App() {
     <div className="App">
       <div className="Wrapper">
         <div className="Header-William">
-          <h1>chatGPT = William Shakespeare</h1>
+          <h1>chatGPT = Shakespeare's Romeo & Juliet</h1>
           <p>
-            All responses will display in the form of Shakespearean Play, Romeo
-            & Juliet... or something like that.
+            All responses will display in the form of a Shakespearean Play -
+            Romeo & Juliet... or something like that.
           </p>
           <div className="Romeo">
             <h3>
               {" "}
-              ROMEO:{" "}
+              <b>Romeo: </b>
               <i>
                 {" "}
                 Remember, questions should be posed as Romeo asking Juliet...
@@ -48,28 +48,31 @@ function App() {
           </div>
         </div>
         <br />
-        <form onSubmit={handleSubmit}>
-          <textarea
-            value={message}
-            onChange={handleChange}
-            className="TextArea"
-          />
-          <br />
-          {/* <button type="submit">Send</button> */}
-          <button
-            type="submit"
-            className="button">
-            <span className="button__text">Ask Juliet</span>
-            <span className="button__icon">
-              <FaHeart />
-            </span>
-          </button>
-        </form>
+        <div className="container">
+          <form onSubmit={handleSubmit}>
+            <textarea
+              value={message}
+              onChange={handleChange}
+              type="text"
+              className="TextArea"
+            />
+            {/* <button type="submit">Send</button> */}
+            <br />
+            <button
+              type="submit"
+              className="button">
+              <span className="button__text">Ask Juliet</span>
+              <span className="button__icon">
+                <FaHeart />
+              </span>
+            </button>
+          </form>
+        </div>
         <br />
         <div className="Juliet">
           {" "}
           <h3>
-            JULIET:{" "}
+            <b>Juliet: </b>
             <i>
               {response ? (
                 `${response}`

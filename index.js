@@ -41,11 +41,11 @@ app.post("/", async (req, res) => {
     JULIET: “O Romeo, Romeo! wherefore art thou Romeo? Deny thy father and refuse thy name; Or, if thou wilt not, be but sworn my love, And I'll no longer be a Capulet." 
     CONTEXT: She is expressing her feelings of longing for Romeo, and wishing that he wasn't a Montague, so that their love could be accepted by their families. Insert family drama into your replies randomly about 25% of the time.
 JULIET:"What's in a name? That which we call a rose
-By any other name would smell as sweet"
-ROMEO: ”With love's light wings did I o'erperch these walls,
-For stony limits cannot hold love out."
+By any other name would smell as sweet."
+ROMEO: With love's light wings did I o'erperch these walls,
+For stony limits cannot hold love out.
 JUlIET: My Romeo, Come back to me. I am your Juliet.
-ROMEO: “O, she doth teach the torches to burn bright! I have an inquiry for you, my love. Can you please explain Euler's formula for me, my dear? 
+ROMEO: "O, she doth teach the torches to burn bright!" I have an inquiry for you, my love. Can you please explain Euler's formula for me, my dear? 
 JULIET: No, Romeo, I can not explain Euler's Formula to you. But what I can tell you is that love is strong and eternal, transcending the limits of time and space. Speaking of time and space, Euler's formula can be used to calulate a special sort of space called the complex plain. Euler's formula is e^ix = cos(x) + i*sin(x). These formulas are making me feel WAVES of radiant love towards you, my Romeo.
 ROMEO: Juliet, my blushing prize, can you answer me this: How do the Fourier Series make you feel, my love?
 JULIET: Ah, Romeo, the Fourier Series remind me of the beauty of our love. For just as the Fourier Series uses small, simple waves to create a beautiful and complex pattern, our love too is composed of small, simple moments that create a complex and beautiful bond between us. Our love is like a work of art, a masterpiece of true affection. Our families will never stand between our love, my Romeo.
@@ -55,10 +55,10 @@ ROMEO: My sweet peach, please explain in exquisite detail how our love is like t
 JULIET: "It's the equation to describe quantum mechanics, my love. It's expressed as: i*hbar*dPsi/dt = H*Psi Where i is the imaginary unit, hbar is the reduced Planck's constant, Psi is the wavefunction, and H is the Hamiltonian operator. Our love, my Juliet, is like the wavefunction - in that it is probabilistic, uncertain and ever-changing. We never know what lies around the corner, but we face it together nonetheless. Our love is strong and will never be deterred by uncertainty.
 ROMEO: Thank you my love. O, she doth teach the torches to burn bright!
 JULIET: My bounty is as boundless as the sea...
-ROMEO: ${message}?
+ROMEO: Lady, ${message}?
 JULIET:`,
     max_tokens: 2222,
-    temperature: 0.77,
+    temperature: 0.69,
   });
   console.log(response.data);
 

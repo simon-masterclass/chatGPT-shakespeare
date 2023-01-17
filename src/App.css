@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 body {
-  margin: 111px;
-  padding: 111px;
-  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Parisienne', cursive;
   background: rgb(77, 77, 77);
   color: rgb(255, 255, 255);
 }
@@ -15,16 +17,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-items: center;
   justify-content: center;
   height: 100vh;
   
 }
 
+.container {
+  display: grid;
+  align-items: center;
+  justify-content: center; 
+}
+
 .TextArea {
   width: 500px;
   height: 111px;
-  border: 1rem;
+  border: none;
   border-color: azure;
   background: rgb(222, 222, 222);
   color: rgb(0, 0, 0);
@@ -56,7 +63,7 @@ body {
 }
 
 .button {
-	display: flex;
+	display: inline-flex;
 	height: 50px;
 	padding: 0;
 	background: #FF69B4;
@@ -68,8 +75,7 @@ body {
 	font-size: 16px;
 	font-weight: 500;
 	cursor: pointer;
-  justify-content: center;
-  align-items: center;
+  transition: background 0.2s ease-in-out;
 }
 
 .button:hover {
@@ -82,7 +88,7 @@ body {
 
 .button__text,
 .button__icon {
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	padding: 0 24px;
 	color: #fff;
