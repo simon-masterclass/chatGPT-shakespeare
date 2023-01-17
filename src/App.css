@@ -59,7 +59,7 @@ body {
 	display: flex;
 	height: 50px;
 	padding: 0;
-	background: #009578;
+	background: #FF69B4;
 	border: none;
 	outline: none;
 	border-radius: 5px;
@@ -71,11 +71,11 @@ body {
 }
 
 .button:hover {
-	background: #008168;
+	background: #FF1493;
 }
 
 .button:active {
-	background: #006e58;
+	background: #C71585;
 }
 
 .button__text,

@@ -4,6 +4,7 @@
 
 import React, { useState } from "react";
 import "./App.css";
+import { FaHeart } from "react-icons/fa";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -60,7 +61,7 @@ function App() {
             class="button">
             <span class="button__text">Ask Juliet</span>
             <span class="button__icon">
-              <ion-icon name="cloud-download-outline"></ion-icon>
+              <FaHeart />
             </span>
           </button>
         </form>
