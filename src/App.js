@@ -51,11 +51,12 @@ function App() {
         <div className="container">
           <form onSubmit={handleSubmit}>
             <textarea
-              value={message}
+              value={
+                message ? message : "Lady, by yonder blessed moon I ask..."
+              }
               onChange={handleChange}
               type="text"
-              className="TextArea"
-            />
+              className="TextArea"></textarea>
             {/* <button type="submit">Send</button> */}
             <br />
             <button
@@ -68,7 +69,6 @@ function App() {
             </button>
           </form>
         </div>
-        <br />
         <div className="Juliet">
           {" "}
           <h3>
@@ -77,7 +77,7 @@ function App() {
               {response ? (
                 `${response}`
               ) : (
-                <>Juliet: Romeo, Romeo! wherefore art thou Romeo?</>
+                <>Romeo, Romeo! wherefore art thou Romeo?</>
               )}
             </i>
           </h3>

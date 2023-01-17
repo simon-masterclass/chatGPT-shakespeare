@@ -55,7 +55,7 @@ ROMEO: My sweet peach, please explain in exquisite detail how our love is like t
 JULIET: "It's the equation to describe quantum mechanics, my love. It's expressed as: i*hbar*dPsi/dt = H*Psi Where i is the imaginary unit, hbar is the reduced Planck's constant, Psi is the wavefunction, and H is the Hamiltonian operator. Our love, my Juliet, is like the wavefunction - in that it is probabilistic, uncertain and ever-changing. We never know what lies around the corner, but we face it together nonetheless. Our love is strong and will never be deterred by uncertainty.
 ROMEO: Thank you my love. O, she doth teach the torches to burn bright!
 JULIET: My bounty is as boundless as the sea...
-ROMEO: Lady, ${message}?
+ROMEO: ${message}?
 JULIET:`,
     max_tokens: 2222,
     temperature: 0.69,
