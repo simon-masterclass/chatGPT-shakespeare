@@ -40,10 +40,7 @@ function App() {
             <h3>
               {" "}
               <b>Romeo: </b>
-              <i>
-                {" "}
-                Remember, questions should be posed as Romeo asking Juliet...
-              </i>
+              <i> Questions should be framed as Romeo asking Juliet...</i>
             </h3>{" "}
           </div>
         </div>
@@ -52,7 +49,7 @@ function App() {
           <form onSubmit={handleSubmit}>
             <textarea
               value={
-                message ? message : "Lady, by yonder blessed moon I ask..."
+                message ? message : "My lady, by yonder blessed moon I ask..."
               }
               onChange={handleChange}
               type="text"
